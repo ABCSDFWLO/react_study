@@ -1,0 +1,13 @@
+.header {
+    display : flex;
+    flex-direction:row;
+    margin: 10px 30px;
+    color:rgb(124, 120, 153);
+    border-bottom-style:dotted;
+    border-bottom:4px solid rgb(83, 115, 185);
+}
+.rjqskdjfuqsptlqkf {
+    display : flex;
+    margin:0px 0px 5px 1rem;
+    padding:10px;
+}
