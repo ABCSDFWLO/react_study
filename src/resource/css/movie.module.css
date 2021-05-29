@@ -1,0 +1,25 @@
+.listsMain {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.listItem {
+    width: 18%;
+    padding: 0 1%;
+    margin-bottom: 50px;
+}
+.listItem img {
+    width: 100%;
+}
+@media screen and (max-width: 769px) {
+ /*태블릿*/
+    .listItem{
+        width:23%;
+    }
+}
+@media screen and (max-width: 425px) {
+ /*모바일*/
+    .listItem{
+        width:50%;
+    }
+}
