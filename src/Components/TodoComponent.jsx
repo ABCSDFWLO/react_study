@@ -16,9 +16,7 @@ const TodoComponent = () => {
         setlists(JSON.parse(localStorage.getItem('todo')));
     }
     const removeListItem=(deletIndex)=>{
-        setlists(lists.filter((list,index)=>
-            index!==deletIndex
-        ));
+        setlists(lists.filter((list,index)=>index!==deletIndex));
     }
     useEffect(()=>{
         getlist();
@@ -28,7 +26,7 @@ const TodoComponent = () => {
     },[lists]);
     return(
         <MainLayout>
-            <Todo lists={lists} addlist={addlist} removeListItem></Todo>
+            <Todo lists={lists} addlist={addlist} removeListItem={removeListItem}></Todo>
         </MainLayout>
         
     );
